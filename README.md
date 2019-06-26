@@ -7,6 +7,7 @@ Install dependencies for server
 npm install
 
 You will need an api key, get your api key from themoviedb.org & put it in config file line no:5
+
 const API_KEY = "YOUR_OWN_API_KEY";
 
 Version
