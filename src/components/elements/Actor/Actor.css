@@ -10,9 +10,9 @@
 }
 
 .rmdb-actor-name {
-  font-family: 'Abel', sans-serif;
-  font-size: 22px;
-  color:#fff;
+  font-family: Oswald, sans-serif;
+  font-size: 32px;
+  color: #fff;
   float: left;
   margin: 10px 20px;
   width: 40%;
@@ -20,11 +20,18 @@
 }
 
 .rmdb-actor-character {
-  font-family: 'Abel', sans-serif;
+  font-family: Oswald, sans-serif;
   font-size: 18px;
-  color:#fff;
+  color: #fff;
   float: left;
   margin: 0 20px 10px 20px;
   width: 40%;
   box-sizing: border-box;
+}
+
+span.rmdb-actor-character {
+  color: #01d277;
+}
+span.rmdb-actor-name {
+  color: #353535;
 }

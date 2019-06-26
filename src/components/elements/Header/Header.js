@@ -1,16 +1,23 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './Header.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Header.css";
 
-const Header = () => (
-  <div className="rmdb-header">
-    <div className="rmdb-header-content">
-      <Link to="/">
-        <img className="rmdb-logo" src="/images/reactMovie_logo.png" alt="rmdb-logo" />
-      </Link>
-      <img className="rmdb-tmdb-logo" src="/images/tmdb_logo.png" alt="tmdb-logo" />
-    </div>
-  </div>
-)
+import HeroImage from "../../elements/HeroImage/HeroImage";
+import SearchBar from "../../elements/SearchBar/SearchBar";
+import FourColGrid from "../../elements/FourColGrid/FourColGrid";
+import MovieThumb from "../../elements/MovieThumb/MovieThumb";
+import LoadMoreBtn from "../../elements/LoadMoreBtn/LoadMoreBtn";
+import Spinner from "../../elements/Spinner/Spinner";
+
+const Header = ({
+  movies,
+  heroImage,
+  loading,
+  currentPage,
+  totalPages,
+  searchTerm,
+  searchMovies,
+  loadMoreMovies
+}) => <div className="rmdb-header" />;
 
 export default Header;
