@@ -1,5 +1,3 @@
-React-Movie-DB
-
 IMDB style React DB Web Application. App is made with a free API key from The Movie Database in this project. A great Application with a complete information about movies.
 
 Quick Start
